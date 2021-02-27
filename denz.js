@@ -74,27 +74,27 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:デ ニ ス\n'
-            + 'ORG:Owner Dns Bot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285866295942:+62 858-66295-942\n'
+            + 'FN:Fajar Alfarizi\n'
+            + 'ORG:Owner 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Caca Cans\n'
-            + 'ORG:Co Owner Dns Bot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285876210829:+62 858-76210-829\n'
+            + 'FN:Debby Cans\n'
+            + 'ORG:Co Owner 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6285277188863:+62 852-7718-8863\n'
             + 'END:VCARD'
 
-prefix = "#"
-name = "DNS BOT"
-rdaftar = "@denssptraa"
-rmenu = "@denssptraa"
-botinfo = "@denssptraa"
+prefix = "!"
+name = "𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃"
+rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 😁"
+rmenu = "HAI TEMEN 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 👋🏻 JANGAN LUPA DONASI YAA:)"
+botinfo = "UNTUK INVITE BOT SILAHKAN DONASI DULU YAA:)"
 limitt = 999999999
-memberLimit = 10
+memberLimit = 2
 ban = []
-premium = ["6285866295942@s.whatsapp.net","6285876210829@s.whatsapp.net"]
+premium = ["6281333782061@s.whatsapp.net","6285277188863@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -196,7 +196,7 @@ async function starts() {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["6285866295942@s.whatsapp.net"] // ubah aja gapapa
+			const FarhanGans = ["0@s.whatsapp.net"] // ubah aja gapapa
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -240,7 +240,7 @@ async function starts() {
 			}
 
 			const botNumber = denz.user.jid
-			const ownerNumber = ["6285866295942@s.whatsapp.net","6285876210829@s.whataapp.net"] // owner number ubah aja
+			const ownerNumber = ["6281333782061@s.whatsapp.net","6285277188863@s.whataapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await denz.groupMetadata(from) : ''
@@ -309,7 +309,7 @@ async function starts() {
 				try {
 					const getmemex = groupMembers.length
 					    if (getmemex <= memberLimit) {
-					    denz.sendMessage(from, `*ᴍᴀᴀғ ᴅɴꜱ ʙᴏᴛ ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴀꜱᴜᴋ ɢʀᴏᴜᴘ ᴋᴀʀɴᴀ ᴍᴇᴍʙᴇʀ ɢʀᴏᴜᴘ ${groupMetadata.subject} ᴛɪᴅᴀᴋ ᴍᴇᴍᴇɴᴜʜɪ ʟɪᴍɪᴛ ᴍᴇᴍʙᴇʀ*\n\n*ᴍɪɴɪᴍᴀʟ ᴍᴇᴍʙᴇʀ ${memberLimit}*`, text)
+					    denz.sendMessage(from, `*ᴍᴀᴀғ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴀꜱᴜᴋ ɢʀᴏᴜᴘ ᴋᴀʀɴᴀ ᴍᴇᴍʙᴇʀ ɢʀᴏᴜᴘ ${groupMetadata.subject} ᴛɪᴅᴀᴋ ᴍᴇᴍᴇɴᴜʜɪ ʟɪᴍɪᴛ ᴍᴇᴍʙᴇʀ*\n\n*ᴍɪɴɪᴍᴀʟ ᴍᴇᴍʙᴇʀ ${memberLimit}*`, text)
 					setTimeout( () => {
                             denz.groupLeave(from)
                             }, 11000)
@@ -317,7 +317,7 @@ async function starts() {
 		denz.updatePresence(from, Presence.composing)
 					}, 10000)
 		setTimeout( () => {
-		reply(`*ᴍᴀᴀғ ᴅɴꜱ ʙᴏᴛ ꜱᴇɢᴇʀᴀ ᴋᴇʟᴜᴀʀ ᴅᴀʀɪ ɢʀᴏᴜᴘ ${groupMetadata.subject}*`)
+		reply(`*ᴍᴀᴀғ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ꜱᴇɢᴇʀᴀ ᴋᴇʟᴜᴀʀ ᴅᴀʀɪ ɢʀᴏᴜᴘ ${groupMetadata.subject}*`)
 		}, 0)
 		}
 					
@@ -418,8 +418,8 @@ async function starts() {
 		const loli = fs.readFileSync('./mp3/iri.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
-        if (messagesLink.includes("6285866295942")){  // respon tag ubah aja
-        reply(`*ᴍᴀᴀғ ${pushname2}, ᴏᴡɴᴇʀ ᴅɴꜱ ʙᴏᴛ ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴛᴀɢ!*`)
+        if (messagesLink.includes("6281333782061")){  // respon tag ubah aja
+        reply(`*ᴍᴀᴀғ ${pushname2}, ᴏᴡɴᴇʀ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴛᴀɢ!*`)
         const d = fs.readFileSync('./sticker/kanna.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek})
         }
@@ -468,7 +468,7 @@ async function starts() {
 ├❏ ɴᴀᴍᴇ: ${pushname2}
 ├❏ ʟɪᴍɪᴛ: ${limitt}
 ├❏ ʀᴇɢɪꜱᴛᴇʀᴇᴅ: √
-├───「 *_ᴀʙᴏᴜᴛ ᴅɴꜱ ʙᴏᴛ_* 」
+├───「 *_ᴀʙᴏᴜᴛ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃_* 」
 ├❏ ${prefix}ʀᴇᴘᴏʀᴛ
 ├❏ ${prefix}ɪɴғᴏ
 ├❏ ${prefix}ᴅᴏɴᴀꜱɪ
@@ -730,7 +730,7 @@ async function starts() {
 ├❏ ${prefix}ᴅᴇʟᴇᴛᴇ
 ├❏ ${prefix}ᴄʟᴏɴᴇ
 ├❏ ${prefix}ʟᴇᴀᴠᴇ
-╰───「 *_ᴅɴsʙᴏᴛ_* 」`,
+╰───「 *_𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃_* 」`,
 
 contextInfo: {
 mentionedJid: [sender]
@@ -1108,7 +1108,7 @@ quoted: mek, caption: `Wah ganteng kek gua`
 				break 
 				case 'daftar':
 					denz.updatePresence(from, Presence.composing)
-					if (isUser) return reply('*ᴋᴀᴍᴜ ꜱᴜᴅᴀʜ ᴍᴇɴᴊᴀᴅɪ ᴛᴇᴍᴀɴ ᴅɴꜱ ʙᴏᴛ :ᴅ*')
+					if (isUser) return reply('*ᴋᴀᴍᴜ ꜱᴜᴅᴀʜ ᴍᴇɴᴊᴀᴅɪ ᴛᴇᴍᴀɴ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 :ᴅ*')
 					if (isBanned) return reply(mess.only.benned)
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
@@ -1170,8 +1170,8 @@ quoted: mek, caption: `Wah ganteng kek gua`
 					me = denz.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `➽ *ɴᴀᴍᴀ ʙᴏᴛ* : ${me.name}\n➽ *ᴏᴡɴᴇʀ ʙᴏᴛ* : Denis\n➽ *ᴘʀᴇғɪx* : | ${prefix} |\n➽ *ᴛᴏᴛᴀʟ ʙʟᴏᴄᴋ* : ${blocked.length}\n➽ *ᴀᴋᴛɪғ ꜱᴇᴊᴀᴋ* : ${kyun(uptime)}\n➽ *ᴛᴏᴛᴀʟ ᴘᴇɴɢɢᴜɴᴀ* : ${user.length} ᴜꜱᴇʀ\n➽ *ɪɴꜱᴛᴀɢʀᴀᴍ* : https://www.instagram.com/denssptraa\n➽ *ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ* :\n➽ ᴀʟʟᴀʜ ꜱᴡᴛ\n➽ ғxᴄ7\n➽ ᴍʜᴀɴᴋʙᴀʀʙᴀʀ\n➽ ᴀɴᴋᴇʀ\n➽ ᴅᴀɴᴇɴᴅʀᴀ\n➽ ɪʟʜᴀᴍ\n➽ ʏᴏɢᴀ ꜱᴀᴋᴛɪ`
-					const daca = fs.readFileSync('dns.jpg');
+					teks = `➽ *ɴᴀᴍᴀ ʙᴏᴛ* : ${me.name}\n➽ *ᴏᴡɴᴇʀ ʙᴏᴛ* : Fajar Alfarizi\n➽ *ᴘʀᴇғɪx* : | ${prefix} |\n➽ *ᴛᴏᴛᴀʟ ʙʟᴏᴄᴋ* : ${blocked.length}\n➽ *ᴀᴋᴛɪғ ꜱᴇᴊᴀᴋ* : ${kyun(uptime)}\n➽ *ᴛᴏᴛᴀʟ ᴘᴇɴɢɢᴜɴᴀ* : ${user.length} ᴜꜱᴇʀ\n➽ *ɪɴꜱᴛᴀɢʀᴀᴍ* : https://www.instagram.com/mhmdfjralfarizi_\n➽ *ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ* :\n➽ ᴀʟʟᴀʜ ꜱᴡᴛ\n➽ ғxᴄ7\n➽ ᴍʜᴀɴᴋʙᴀʀʙᴀʀ\n➽ ᴀɴᴋᴇʀ\n➽ ᴅᴀɴᴇɴᴅʀᴀ\n➽ ɪʟʜᴀᴍ\n➽ ʏᴏɢᴀ ꜱᴀᴋᴛɪ`
+					const daca = fs.readFileSync('megumin.jpg');
 				    denz.sendMessage(from, daca, image, {quoted: mek, caption: teks})
 					break 
 				case 'totaluser':
@@ -1228,7 +1228,7 @@ quoted: mek, caption: `Wah ganteng kek gua`
 					case 'tahta':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}tahta dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}tahta 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 teks = body.slice(6)
 reply(mess.wait)
 buffer = await getBuffer(`https://api.vhtear.com/hartatahta?text=${teks}&apikey=${VthearApi}`)
@@ -1238,7 +1238,7 @@ break
 case 'burnpaper':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}burnpaper dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}burnpaper 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 todi = body.slice(10)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/burnpaper/?text=${todi}`)
@@ -1248,7 +1248,7 @@ break
 case '8bit':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}8bit dns/bot`)
+if (args.length < 1) return reply(`Contoh: ${prefix}8bit 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃`)
 ds = `${body.slice(10)}`
 tex1 = ds.split("/")[0];
 tex2 = ds.split("/")[1];
@@ -1260,7 +1260,7 @@ break
 case 'glowneon':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}glowneon dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}glowneon 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 tekas = body.slice(9)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/glowingneon/?text=${tekas}`)
@@ -1270,7 +1270,7 @@ break
 case 'gsuggest':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}gsuggest dns/bot/wea`)
+if (args.length < 1) return reply(`Contoh: ${prefix}gsuggest 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃/wea`)
 du = `${body.slice(9)}`
 ted1 = du.split("/")[0];
 ted2 = du.split("/")[1];
@@ -1283,7 +1283,7 @@ break
 case 'candlemug':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}candlemug dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}candlemug 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 ddu = body.slice(10)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/candlemug/?text=${ddu}`)
@@ -1293,7 +1293,7 @@ break
 case 'lovemss':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}lovemss dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}lovemss 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 lop = body.slice(8)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/lovemsg/?text=${lop}`)
@@ -1303,7 +1303,7 @@ break
 case 'mugflower':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}mugflower dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}mugflower 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 mug = body.slice(10)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/mugflower/?text=${mug}`)
@@ -1313,7 +1313,7 @@ break
 case 'narutobanner':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}narutobanner dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}narutobanner 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 nar = body.slice(13)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/narutobanner/?text=${nar}`)
@@ -1323,7 +1323,7 @@ break
 case 'paperglass':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}paperglass dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}paperglass 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 papg = body.slice(11)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/paperonglass/?text=${papg}`)
@@ -1333,7 +1333,7 @@ break
 case 'romance':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}romance dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}romance 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 roce = body.slice(7)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/romancetext/?text=${roce}`)
@@ -1343,7 +1343,7 @@ break
 case 'shadow':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}shadow dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}shadow 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 sdow = body.slice(7)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/shadowtext/?text=${sdow}`)
@@ -1353,7 +1353,7 @@ break
 case 'glitch':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}glitch dns/bot`)
+if (args.length < 1) return reply(`Contoh: ${prefix}glitch 𝙼𝚎𝚐𝚞𝚖𝚒𝚗/𝙱𝙾𝚃`)
 gl = `${body.slice(7)}`
 gel1 = gl.split("/")[0];
 gel2 = gl.split("/")[1];
@@ -1365,7 +1365,7 @@ break
 case 'coffe':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}coffe dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}coffe 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 kop = body.slice(6)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/coffeecup/?text=${kop}`)
@@ -1375,7 +1375,7 @@ break
 case 'candy':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}candy dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}candy 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 cndy = body.slice(6)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/sweetcandy/?text=${cndy}`)
@@ -1385,7 +1385,7 @@ break
 case 'hpotter':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}hpotter dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}hpotter 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 hpter = body.slice(8)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/hpotter/?text=${hpter}`)
@@ -1395,7 +1395,7 @@ break
 case 'woodblock':
 if (isBanned) return reply(mess.only.benned)    
 if (!isUser) return reply(mess.only.userB)
-if (args.length < 1) return reply(`Contoh: ${prefix}woodblock dns`)
+if (args.length < 1) return reply(`Contoh: ${prefix}woodblock 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃`)
 woblk = body.slice(10)
 reply(mess.wait)
 buffer = await getBuffer(`https://videfikri.com/api/textmaker/woodblock/?text=${woblk}`)
@@ -1979,7 +1979,7 @@ break
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    denz.sendMessage('6285866295942@s.whatsapp.net', options, text, {quoted: mek})
+                    denz.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -1995,7 +1995,7 @@ break
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    denz.sendMessage('6285866295942@s.whatsapp.net', options, text, {quoted: mek})
+                    denz.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'memeindo':
@@ -2984,7 +2984,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 						teks += `╠➥ @${mem.jid.split('@')[0]} wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 DNS BOT 〙═══', members_id, true)
+					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙═══', members_id, true)
 					break
 			    case 'mentionall':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -2998,7 +2998,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 DNS BOT 〙', members_id, true)
+					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙', members_id, true)
 					break
 			    case 'kbbi':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -3045,7 +3045,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 					for (let _ of anu) {
 						denz.deleteChat(_.jid)
 					}
-					reply(`\`\`\`Sukses delete all chat DNS BOT\`\`\``)
+					reply(`\`\`\`Sukses delete all chat 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃\`\`\``)
 					break
                                 case 'bcgc':
 					denz.updatePresence(from, Presence.composing) 
@@ -4178,7 +4178,7 @@ case 'husbu':
 						console.log(muehe)
 						reply(muehe)
 					} else {
-						console.log(color('[DNSBOT]','aqua'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
+						console.log(color('[𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃]','aqua'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
 					}
                            }
 		} catch (e) {
