@@ -4,9 +4,9 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │× ᴛᴇʟᴇᴘᴏɴ
 │ᴍᴇʟᴀɴɢɢᴀʀ? ʙʟᴏᴄᴋ!
 │ᴋᴇᴛɪᴋ #ᴍᴇɴᴜ
-│ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ғɪᴛᴜʀ ᴅɴꜱ ʙᴏᴛ
+│ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ғɪᴛᴜʀ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃
 ┬
-╰──────「 *_ᴅɴꜱʙᴏᴛ_* 」
+╰──────「 *_𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃_* 」
 `
 }
 
@@ -28,7 +28,7 @@ const bottt = (prefix) => {
 return `
 *ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ɪɴɪ ꜱɪʟᴀʜᴋᴀɴ ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴅɴꜱ ʙᴏᴛ*
 
-https://chat.whatsapp.com/Hpwp8FBfJMtHEN5KeuFJKw
+https://chat.whatsapp.com/LIWm11ke9836k38SIaKlFr
 `
 }
 exports.bottt = bottt
@@ -37,13 +37,13 @@ const donasi = (name) => {
 	return `       
 ╭──────「 *_ᴅᴏɴᴀꜱɪ_* 」
 ┴
-│√ ᴘᴜʟꜱᴀ : 085727091924
-│√ ꜱᴀᴡᴇʀɪᴀ : https://saweria.co/denisputra
+│√ ᴘᴜʟꜱᴀ : 081333782061
+│√ ꜱᴀᴡᴇʀɪᴀ : https://saweria.co/MeguminBOT
 │
 │\`\`\`ᴘᴜʟꜱᴀ\`\`\`
 │ 5ᴋ ɪɴᴠɪᴛᴇ ʙᴏᴛ ᴋᴇ ɢʀᴜᴘ ꜱᴇʟᴀᴍᴀ 1 ʙᴜʟᴀɴ
 ┬
-╰──────「 *_ᴅɴꜱʙᴏᴛ_* 」
+╰──────「 *_𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃_* 」
 `
 }
 exports.donasi = donasi
