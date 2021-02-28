@@ -418,9 +418,184 @@ async function starts() {
 		const loli = fs.readFileSync('./mp3/iri.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
+        if (messagesLink.includes("sound1")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound1.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound2")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound2.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound3")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound3.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound4")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound4.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound5")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound5.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound6")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound6.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound7")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound7.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound8")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound8.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound9")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound9.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound10")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound10.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound11")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound11.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound12")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound12.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sound13")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sound13.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("mengontol")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/mengontol.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("ngontol")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/mengontol.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("ngocok")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/ngocok.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("bapak")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/bapaklo.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("terimakasih")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/mksih.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("yamete")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/yamete.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("ngakak")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/ngakak.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("pap")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/pap.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("pota")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/pota.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("sad")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/sad.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("pale")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/pale.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("anjim")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/anjim.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("ara")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/ara2.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("ara2")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/ara1.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("bengek")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/bengek.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("bernyanyi")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/bernyanyi.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("krik")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/krik.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("menyukaiku")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/menyukaiku.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("why")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/why.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("what")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/why.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (messagesLink.includes("gam")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/gam.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
         if (messagesLink.includes("6281333782061")){  // respon tag ubah aja
         reply(`*ᴍᴀᴀғ ${pushname2}, ᴏᴡɴᴇʀ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴛᴀɢ!*`)
-        const d = fs.readFileSync('./sticker/kanna.webp');
+        const d = fs.readFileSync('./sticker/owner.webp');
+        denz.sendMessage(from, d, sticker, {quoted: mek})
+        }
+        if (messagesLink.includes("fajar")){  // respon tag ubah aja
+        reply(`*ᴍᴀᴀғ ${pushname2}, ᴏᴡɴᴇʀ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴛᴀɢ!*`)
+        const d = fs.readFileSync('./sticker/owner1.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek})
         }
         if (bad.includes(messagesLink)) {
