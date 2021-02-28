@@ -488,11 +488,6 @@ async function starts() {
 		const loli = fs.readFileSync('./mp3/mengontol.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
-        if (messagesLink.includes("ngontol")){
-		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mengontol.mp3')
-        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        }
         if (messagesLink.includes("ngocok")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/ngocok.mp3')
