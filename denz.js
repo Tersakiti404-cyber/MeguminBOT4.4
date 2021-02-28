@@ -588,6 +588,11 @@ async function starts() {
 		const loli = fs.readFileSync('./mp3/gam.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
+        if (messagesLink.includes("jujur")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/jujur.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
         if (messagesLink.includes("6281333782061")){  // respon tag ubah aja
         reply(`*ᴍᴀᴀғ ${pushname2}, ᴏᴡɴᴇʀ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴛᴀɢ!*`)
         const d = fs.readFileSync('./sticker/owner.webp');
